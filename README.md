@@ -11,14 +11,10 @@ For example, a project where main.py calls another file ...
 
 onefile.py
 
-Gyu! !! !! I'm surprised.
-
-(The motivation is that I wondered if I could easily execute the python file managed by the project with google colab.)
-
 # Solution
 Here, you can use a python package called stickytape. https://pypi.org/project/stickytape/
 
-stickytape = Adhesive tape
+> stickytape = Adhesive tape
 
 # Experiment
 All the experimented code is published on Github, so for reference. 
@@ -43,7 +39,7 @@ class Apple:
         self.value = value
 ~~~
 
-sub1.py I will make an average function as appropriate.
+sub1.py Make an average function as appropriate.
 
 sub1.py
 ~~~
@@ -69,7 +65,6 @@ result
 The following ʻonefile.py` will be generated.
 ~~~
 #!/usr/bin/env python
-
 
 import contextlib as __stickytape_contextlib
 
@@ -163,21 +158,24 @@ stickytape ${entry} > "build/${output}"
 
 The following command will run main.py and generate onefile.py in the build directory.
 ~~~
+$ mkdir build
 $ sh scripts/tape.sh
 ~~~
 I also prepared options.
 
-Option name	Description
--e	Entry point filename
--o	File name to output
+|Option name||	Description|
+|-e	||Entry point filename|
+|-o	||File name to output|
+~~~
 $ sh scripts/tape.sh -e <file name> -o <file name>
+~~~
 The generated directory is fixed with build, so if you don't like it, change it.
 
 ## Self-introduction
 If you write it at the beginning, it will get in the way, so let me introduce yourself quietly at the end.
 
-|name	|Aki Wataoka|
-|school	|Kobe University Graduate School|
-|Undergraduate research	|Machine learning,Speech processing|
-|Graduate study	|Machine learning,fairness,Generative model, etc|
+|name	||Aki Wataoka|
+|school	||Kobe University Graduate School|
+|Undergraduate research	||Machine learning,Speech processing|
+|Graduate study	||Machine learning,fairness,Generative model, etc|
 [Twitter](@Wataoka_Koki) Follow us on Twitter!
