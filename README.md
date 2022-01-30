@@ -12,7 +12,7 @@ For example, a project where main.py calls another file ...
 onefile.py
 
 # Solution
-Here, you can use a python package called stickytape. https://pypi.org/project/stickytape/
+Here, you can use a python package called [stickytape](https://pypi.org/project/stickytape/) .
 
 > stickytape = Adhesive tape
 
