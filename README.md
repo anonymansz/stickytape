@@ -175,6 +175,6 @@ The generated directory is fixed with build, so if you don't like it, change it.
 If you write it at the beginning, it will get in the way, so let me introduce yourself quietly at the end.
 | Name  | School |
 | :------------ | :-----|
-| Aki Wataoka ||Kobe University Graduate School||Undergraduate research	|Machine learning,Speech processing||Graduate study	|Machine learning,fairness,Generative model, etc|
+| Aki Wataoka |Kobe University Graduate School|Undergraduate research	Machine learning,Speech processing|Graduate study|Machine learning,fairness,Generative model, etc|
 
 [Twitter](@Wataoka_Koki) Follow us on Twitter!
