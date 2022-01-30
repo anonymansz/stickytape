@@ -173,10 +173,9 @@ The generated directory is fixed with build, so if you don't like it, change it.
 
 ## Self-introduction
 If you write it at the beginning, it will get in the way, so let me introduce yourself quietly at the end.
-| Left-Aligned  | Center Aligned  | Right Aligned |
+| Name  | Aki Wataoka  | School |
 | :------------ |:---------------:| -----:|
-|name	|Aki Wataoka|
-|school	|Kobe University Graduate School|
+|Kobe University Graduate School|
 |Undergraduate research	|Machine learning,Speech processing|
 |Graduate study	|Machine learning,fairness,Generative model, etc|
 [Twitter](@Wataoka_Koki) Follow us on Twitter!
