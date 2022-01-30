@@ -173,7 +173,11 @@ The generated directory is fixed with build, so if you don't like it, change it.
 
 ## Self-introduction
 If you write it at the beginning, it will get in the way, so let me introduce yourself quietly at the end.
-
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 |name	||Aki Wataoka|
 |school	||Kobe University Graduate School|
 |Undergraduate research	||Machine learning,Speech processing|
