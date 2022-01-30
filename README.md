@@ -1,4 +1,4 @@
-Combine multiple python files into one python file
+# Combine multiple python files into one python file
  
 Thing you want to do
 For example, a project where main.py calls another file ...
@@ -10,22 +10,25 @@ For example, a project where main.py calls another file ...
 ↓ ↓ ↓ The functions and classes that depend on it ...
 
 onefile.py
+
 Gyu! !! !! I'm surprised.
 
 (The motivation is that I wondered if I could easily execute the python file managed by the project with google colab.)
 
-Solution
+# Solution
 Here, you can use a python package called stickytape. https://pypi.org/project/stickytape/
 
 stickytape = Adhesive tape
 
-Experiment
+# Experiment
 All the experimented code is published on Github, so for reference. 
 
 install Now you can use the stickytape command. (No command name ...)
-
+~~~
 $ pip install stickytape
-Prepare the file
+~~~
+
+## Prepare the file
 The configuration is as follows.
 
 - main.py
@@ -33,19 +36,17 @@ The configuration is as follows.
 - folder
     - sub2.py
 folder/sub2.py Make an Apple class as you like and give it a value property as you like.
-
+~~~
 class Apple:
 
     def __init__(self, value):
         self.value = value
+~~~
 
- 
-
- 
 sub1.py I will make an average function as appropriate.
 
 sub1.py
-
+~~~
 def mean(a, b):
     return (a+b)/2
 main.py Import it, calculate it appropriately, and display it appropriately.
@@ -60,11 +61,13 @@ result = mean(apple1.value, apple2.value)
 print(result)
 Now! In one file!
 Execute the following command. (Of course, anything in onefile.py is OK)
-
+~~~
+~~~
 $ stickytape main.py > onefile.py
+~~~
 result
 The following ʻonefile.py` will be generated.
-
+~~~
 #!/usr/bin/env python
 
 
@@ -112,6 +115,7 @@ with __stickytape_temporary_dir() as __stickytape_working_dir:
     
     result = mean(apple1.value, apple2.value)
     print(result)
+~~~
 For a moment, it became "What's wrong !?", but when I executed this ...
 
 150.0
@@ -125,9 +129,9 @@ As shown below, 150.0 was displayed safely.
 (Don't worry about the rainbow-colored cat walking.)
 
 スクリーンショット 2020-06-25 12.38.44.png 
-Scripting
-It's a digression from here.
 
+## Scripting
+It's a digression from here.
 The command stickytape is long, and I'm lazy to specify the directory of the generated file one by one, so I think it's a good idea to script it as follows.
 
 - main.py
@@ -139,7 +143,7 @@ The command stickytape is long, and I'm lazy to specify the directory of the gen
 - build
     - onefile.py
 tape.sh
-
+~~~
 #initial value
 entry="main.py"
 output="onefile.py"
@@ -155,9 +159,12 @@ done
 
 #Run
 stickytape ${entry} > "build/${output}"
-The following command will run main.py and generate onefile.py in the build directory.
+~~~
 
+The following command will run main.py and generate onefile.py in the build directory.
+~~~
 $ sh scripts/tape.sh
+~~~
 I also prepared options.
 
 Option name	Description
@@ -166,13 +173,11 @@ Option name	Description
 $ sh scripts/tape.sh -e <file name> -o <file name>
 The generated directory is fixed with build, so if you don't like it, change it.
 
-Self-introduction
+## Self-introduction
 If you write it at the beginning, it will get in the way, so let me introduce yourself quietly at the end.
 
-
-name	Aki Wataoka
-school	Kobe University Graduate School
-Undergraduate research	Machine learning,Speech processing
-Graduate study	Machine learning,fairness,Generative model, etc
-Twitter	@Wataoka_Koki
-Follow us on Twitter!
+|name	|Aki Wataoka|
+|school	|Kobe University Graduate School|
+|Undergraduate research	|Machine learning,Speech processing|
+|Graduate study	|Machine learning,fairness,Generative model, etc|
+[Twitter](@Wataoka_Koki) Follow us on Twitter!
