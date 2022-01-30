@@ -118,7 +118,7 @@ I copied the above code to Google Colab and ran it.
 
 As shown below, 150.0 was displayed safely.
 
-[スクリーンショット]
+[スクリーンショット](https://linuxtut.com/en/dfc67048c7f214a31265/)
 
 ![alt text](https://github.com/anonymansz/stickytape/blob/main/7f75a9f3cecc.png)
 
@@ -175,6 +175,6 @@ The generated directory is fixed with build, so if you don't like it, change it.
 If you write it at the beginning, it will get in the way, so let me introduce yourself quietly at the end.
 | Name  | School | 
 | :------------ | :-----|
-| [Aki Wataoka](https://linuxtut.com/en/dfc67048c7f214a31265/) | Kobe University |
+| Aki Wataoka | Kobe University |
 
 [Twitter](@Wataoka_Koki) Follow us on Twitter!
