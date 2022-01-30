@@ -128,7 +128,7 @@ As shown below, 150.0 was displayed safely.
 
 (Don't worry about the rainbow-colored cat walking.)
 
-[スクリーンショット] 2020-06-25 (https://github.com/anonymansz/stickytape/blob/main/7f75a9f3cecc.png)
+[スクリーンショット](https://github.com/anonymansz/stickytape/blob/main/7f75a9f3cecc.png) 2020-06-25 
 
 ## Scripting
 It's a digression from here.
