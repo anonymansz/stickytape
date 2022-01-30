@@ -161,20 +161,21 @@ The following command will run main.py and generate onefile.py in the build dire
 $ mkdir build
 $ sh scripts/tape.sh
 ~~~
-I also prepared options.
+also prepared options.
 
-|Option name||	Description|
-|-e	||Entry point filename|
-|-o	||File name to output|
+| Option name| Description |
+| :------------ | :----- |
+|-e |Entry point filename|
+|-o |File name to output|
 ~~~
 $ sh scripts/tape.sh -e <file name> -o <file name>
 ~~~
 The generated directory is fixed with build, so if you don't like it, change it.
 
-## Self-introduction
+## Full Tutorials
 If you write it at the beginning, it will get in the way, so let me introduce yourself quietly at the end.
 | Name  | School | 
 | :------------ | :-----|
-| Aki Wataoka | Kobe University |
+| [Aki Wataoka](https://linuxtut.com/en/dfc67048c7f214a31265/) | Kobe University |
 
 [Twitter](@Wataoka_Koki) Follow us on Twitter!
