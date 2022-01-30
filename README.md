@@ -23,7 +23,6 @@ install Now you can use the stickytape command. (No command name ...)
 ~~~
 $ pip install stickytape
 ~~~
-
 ## Prepare the file
 The configuration is as follows.
 
@@ -111,9 +110,7 @@ with __stickytape_temporary_dir() as __stickytape_working_dir:
     result = mean(apple1.value, apple2.value)
     print(result)
 ~~~
-For a moment, it became "What's wrong !?", but when I executed this ...
 
-150.0
 The correct calculation result is displayed safely.
 
 Experiment with Google Colab
@@ -121,10 +118,11 @@ I copied the above code to Google Colab and ran it.
 
 As shown below, 150.0 was displayed safely.
 
-(Don't worry about the rainbow-colored cat walking.)
+[スクリーンショット]
 
-[スクリーンショット] 2020-06-25 
 ![alt text](https://github.com/anonymansz/stickytape/blob/main/7f75a9f3cecc.png)
+
+2020-06-25 
 
 ## Scripting
 It's a digression from here.
