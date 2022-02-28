@@ -166,9 +166,11 @@ also prepared options.
 | :------------ | :----- |
 |-e |Entry point filename|
 |-o |File name to output|
+
 ~~~
 $ sh scripts/tape.sh -e <file name> -o <file name>
 ~~~
+
 The generated directory is fixed with build, so if you don't like it, change it.
 
 ## Full Tutorials
@@ -177,4 +179,4 @@ If you write it at the beginning, it will get in the way, so let me introduce yo
 | :------------ | :-----|
 | Aki Wataoka | Kobe University |
 
-[Twitter](@Wataoka_Koki) Follow us on Twitter!
+[@Wataoka_Koki](https://twitter.com/Wataoka_Koki) Follow us on Twitter!
